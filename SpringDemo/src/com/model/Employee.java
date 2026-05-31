@@ -1,5 +1,5 @@
 package com.model;
-
+// using primitive dependency with setter injection
 public class Employee {
 	private int id;
 	private String name;
