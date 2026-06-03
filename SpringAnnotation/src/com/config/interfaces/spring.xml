@@ -15,17 +15,11 @@
        http://www.springframework.org/schema/util
        https://www.springframework.org/schema/util/spring-util.xsd">
 
-    <!-- Component Scanning -->
-    <context:component-scan base-package="com.annotation"/>
-     <bean id="ins" class="com.annotation.Instructor"></bean>
-    <!-- List Bean -->
-    <util:list id="topics" list-class="java.util.LinkedList">
-        <value>Java</value>
-        <value>SQL</value>
-        <value>Spring</value>
-        <value>JDBC</value>
-        <value>Spring Boot</value>
-    </util:list>
+    <!--  <bean class="com.config.interfaces.OrderDaoImpl" name="dao"></bean>
+    <bean class="com.config.interfaces.OrderImpl" name="oi">
+          <property name="dao" ref="dao"></property>
+    </bean> -->
+    
+    <context:component-scan base-package="com.config.interfaces"></context:component-scan>
 
-
-	</beans>
+</beans>

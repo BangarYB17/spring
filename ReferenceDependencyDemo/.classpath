@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/SpringJar-20260211T012521Z-3-001/SpringJar/libs/spring-context-5.2.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/SpringJar-20260211T012521Z-3-001/SpringJar/libs/spring-expression-5.2.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/commons-logging-1.2.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Admin/Downloads/SpringJar-20260211T012521Z-3-001/SpringJar/libs/spring-aop-5.2.9.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
